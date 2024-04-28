@@ -1697,6 +1697,14 @@ Contact Page Style
   justify-content: center;
 }
 
+.col-lg-8 {
+  text-align: center;
+}
+
+.col-lg-8-text {
+  margin: 0;
+  padding: 0;
+}
 
 /* 
 ---------------------------------------------
