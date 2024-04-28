@@ -1,83 +1,72 @@
+/* styles.css */
+
+/* Общие стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f9f9f9;
 }
 
+/* Шапка */
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Секции */
 section {
-    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-section h1 {
-    color: #333;
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
-section p {
-    color: #666;
-}
-
+/* Подвал */
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 10px;
 }
 
-button {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
+/* Защита авторских прав */
+footer p {
+    font-size: 0.8rem;
 }
 
-button:hover {
-    background-color: white;
-    color: black;
-}
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-body {
-    animation-name: fadeIn;
-    animation-duration: 2s;
+/* Медиа-запросы для адаптивности */
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin-right: 10px;
+    }
 }
