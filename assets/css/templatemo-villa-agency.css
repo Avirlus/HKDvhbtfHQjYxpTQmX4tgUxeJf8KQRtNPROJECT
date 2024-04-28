@@ -1697,11 +1697,9 @@ Contact Page Style
   justify-content: center;
 }
 
-.col-lg-8 {
-  text-align: center;
-}
-
 .col-lg-8-text {
+  text-align: center;
+  line-height: 0;
   margin: 0;
   padding: 0;
 }
