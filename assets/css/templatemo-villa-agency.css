@@ -1691,6 +1691,12 @@ Contact Page Style
   background-color: #f35525;
 }
 
+.video-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* 
 ---------------------------------------------
