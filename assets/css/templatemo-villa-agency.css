@@ -745,15 +745,43 @@ Banner Style
 }
 
 .main-banner .item-1 {
-  background-image: url(../images/banner-01.jpg);
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-01.jpg);
 }
 
 .main-banner .item-2 {
-  background-image: url(../images/banner-02.jpg);
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-02.jpg);
 }
 
 .main-banner .item-3 {
-  background-image: url(../images/banner-03.jpg);
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-03.jpg);
+}
+
+.main-banner .item-4 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-04.jpg);
+}
+
+.main-banner .item-5 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-05.jpg);
+}
+
+.main-banner .item-6 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-06.jpg);
+}
+
+.main-banner .item-7 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-07.jpg);
+}
+
+.main-banner .item-8 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-08.jpg);
+}
+
+.main-banner .item-9 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-09.jpg);
+}
+
+.main-banner .item-10 {
+  background-image: url(https://gubkin.project.avirland.ru/assets/images/banners/main-10.jpg);
 }
 
 .main-banner .item span.category {
