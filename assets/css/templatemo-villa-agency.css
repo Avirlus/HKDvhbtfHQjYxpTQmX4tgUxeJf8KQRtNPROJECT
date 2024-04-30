@@ -1861,7 +1861,6 @@ body {
     margin-top: 60px;
   }
   .best-deal .info-table ul li span {
-    float: right !important;
     width: auto !important;
   }
 }
