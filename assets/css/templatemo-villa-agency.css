@@ -1704,6 +1704,7 @@ Contact Page Style
 
 .info-table li span {
   word-wrap: break-word;
+  white-space: normal;
 }
 
 /* 
