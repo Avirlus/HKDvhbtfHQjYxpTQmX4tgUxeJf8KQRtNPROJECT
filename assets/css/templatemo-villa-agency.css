@@ -1702,6 +1702,10 @@ Contact Page Style
   padding: 0;
 }
 
+.info-table li span {
+  word-wrap: break-word;
+}
+
 /* 
 ---------------------------------------------
 Responsive Style
