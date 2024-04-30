@@ -1702,9 +1702,8 @@ Contact Page Style
   padding: 0;
 }
 
-.info-table {
-  word-wrap: break-word;
-  white-space: normal;
+.info-table li span {
+  overflow-wrap: break-word;
 }
 
 /* 
