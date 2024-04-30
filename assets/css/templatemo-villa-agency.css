@@ -1702,7 +1702,7 @@ Contact Page Style
   padding: 0;
 }
 
-.info-table li span {
+.info-table {
   word-wrap: break-word;
   white-space: normal;
 }
