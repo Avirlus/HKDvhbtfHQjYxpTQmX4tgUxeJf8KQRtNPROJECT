@@ -1624,6 +1624,10 @@ Single Page Style
   float: left;
 }
 
+.info-big {
+  font-size: 52px;
+}
+
 /* 
 ---------------------------------------------
 Contact Page Style
