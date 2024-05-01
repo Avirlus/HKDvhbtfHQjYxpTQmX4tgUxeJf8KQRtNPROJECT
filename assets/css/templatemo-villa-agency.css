@@ -1617,6 +1617,12 @@ Single Page Style
   font-weight: 400;
 }
 
+.info-table-icon {
+  font-size: 52px;
+  color: #fe5828;
+  margin-right: 10px;
+  float: left;
+}
 
 /* 
 ---------------------------------------------
@@ -1739,13 +1745,6 @@ Contact Page Style
 
 .col-lg-3 {
   height: auto;
-}
-
-.icon-info {
-  font-size: 52px;
-  color: #fe5828;
-  margin-right: 10px;
-  float: left;
 }
 
 /* 
