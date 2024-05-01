@@ -1601,9 +1601,9 @@ Single Page Style
   margin-bottom: 0;
 }
 
-.single-property .info-table ul li img {
-  float: left;
-  margin-right: 25px;
+.info-table ul li {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .single-property .info-table ul li h4 {
