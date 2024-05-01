@@ -1741,6 +1741,13 @@ Contact Page Style
   height: auto;
 }
 
+.icon-info {
+  font-size: 52px;
+  color: #fe5828;
+  margin-right: 10px;
+  float: left;
+}
+
 /* 
 ---------------------------------------------
 Responsive Style
