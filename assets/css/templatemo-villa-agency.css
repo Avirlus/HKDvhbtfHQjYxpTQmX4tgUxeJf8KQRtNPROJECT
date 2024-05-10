@@ -308,25 +308,6 @@ Pre-loader Style
   border-radius: 50%;
 }
 
-.progress-bar {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.progress-circle {
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-}
-
-.progress-ring {
-  stroke: #3498db;
-  stroke-dasharray: 339.292; /* Длина окружности (2 * π * R) */
-  stroke-dashoffset: 339.292; /* Полная длина окружности */
-}
-
-
 /* 
 ---------------------------------------------
 Header Style
