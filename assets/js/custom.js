@@ -124,3 +124,36 @@
 
 
 })(window.jQuery);
+
+// Функция для обновления прогресса
+function updateProgress(loaded, total) {
+  var progressRing = document.querySelector('.progress-ring');
+  var radius = progressRing.r.baseVal.value;
+  var circumference = 2 * Math.PI * radius;
+  var percent = (loaded / total) * 100;
+  var offset = circumference - (percent / 100) * circumference;
+  progressRing.style.strokeDashoffset = offset;
+}
+
+// Событие начала загрузки
+window.addEventListener('loadstart', function() {
+  // Показать прелоадер
+  document.getElementById('js-preloader').style.display = 'block';
+});
+
+// Событие прогресса загрузки
+window.addEventListener('progress', function(e) {
+  if (e.lengthComputable) {
+    updateProgress(e.loaded, e.total);
+  }
+});
+
+// Событие завершения загрузки
+window.addEventListener('load', function() {
+  // Установить прогресс в 100%
+  updateProgress(1, 1);
+  // Скрыть прелоадер
+  setTimeout(function() {
+    document.getElementById('js-preloader').style.display = 'none';
+  }, 500); // Задержка перед скрытием прелоадера
+});
